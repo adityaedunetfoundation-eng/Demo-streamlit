@@ -1,7 +1,7 @@
 import streamlit as st 
 import pickle
 import numpy as np
-model = pickle.load(open("iris_model.pkl","rb"))
+model = pickle.load(open("Demo-streamlit\iris_model.pkl","rb"))
 
 st.title("Flower prediction system ")
 sepal_length = st.slider("sepal_length",4.0,8.0,5.5)
